@@ -1,4 +1,20 @@
 *, *::before, *::after {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
+.content {
+    border: none;
+    background: var(--gradient-supersoft);
+    border-radius: 0px, 0px, 12px, 12px;
+    width: 1000px;
+    height: 500px;
+}
+
+.center{
+    padding-left: calc(50vw - 593px);
+    padding-right: calc(50vw - 593px);
+}
+
 
